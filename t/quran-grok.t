@@ -6,7 +6,7 @@ use XML;
 plan 1;
 ####### Checks to see if file is loading correctly
 
-my $quran = from-xml-file('quran-simple.xml');
+my $quran = from-xml-file('../quran-simple.xml');
 
 #######
 ok   1;
